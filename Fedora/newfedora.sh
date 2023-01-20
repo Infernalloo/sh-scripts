@@ -7,6 +7,7 @@ sudo dnf install dnf-utils -y
 # install alacritty
 sudo dnf makecache --refresh
 sudo dnf install alacritty -y
+sudo dnf install fish -y
 
 # install vscode
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
