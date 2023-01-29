@@ -28,3 +28,11 @@ sudo dnf install opera-stable -y
 sudo dnf config-manager --add-repo https://rpm.librewolf.net/librewolf-repo.repo
 # install
 sudo dnf install librewolf
+
+## Edge ##
+# add gpg key
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+# add repo
+sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
+# install 
+sudo dnf install microsoft-edge-stable -y
