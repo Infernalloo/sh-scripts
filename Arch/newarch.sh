@@ -6,6 +6,12 @@ sudo pacman -Syu --noconfirm
 # install alacritty
 sudo pacman -S alacritty --noconfirm
 
+# install fish
+sudo pacman -S fish
+
+# install starship
+sudo pacman -S starship --noconfirm
+
 # install spotify
 sudo pacman -S spotify-launcher --noconfirm
 
