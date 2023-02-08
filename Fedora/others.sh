@@ -22,3 +22,16 @@ gpgkey=https://www.virtualbox.org/download/oracle_vbox.asc
 EOF
 sudo dnf search virtualbox -y
 sudo dnf install VirtualBox-7.0 -y
+
+# install nitch
+wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
+
+# install pfetch
+wget https://github.com/dylanaraps/pfetch/archive/master.zip
+unzip master.zip
+sudo install pfetch-master/pfetch /usr/local/bin/
+ls -l /usr/local/bin/pfetch
+
+# enables nonfree rpm fusion
+sudo dnf copr enable atim/bottom -y
+sudo dnf install bottom -y

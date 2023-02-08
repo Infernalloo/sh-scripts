@@ -9,6 +9,14 @@ sudo dnf makecache --refresh
 sudo dnf install alacritty -y
 sudo dnf install fish -y
 
+# install fish
+sudo dnf install fish
+sudo dnf install util-linux-user
+chsh -s /bin/fish
+
+# install starship
+curl -sS https://starship.rs/install.sh | sh
+
 # install vscode
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
@@ -24,14 +32,14 @@ sudo flatpak install flathub com.spotify.Client -y
 
 # enables nonfree rmp fusion
 sudo dnf install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
-#sudo dnf install steam -y
 
-# enables copr and installs btm
-sudo dnf copr enable atim/bottom -y
-sudo dnf install bottom -y
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 #install vim
 sudo dnf install vim -y
+
+# install nvim
+sudo dnf install -y neovim python3-neovim
 
 # reboots the computer
 reboot

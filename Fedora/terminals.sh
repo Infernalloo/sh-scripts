@@ -12,3 +12,6 @@ sudo dnf install st -y
 
 ## Xterm ##
 sudo dnf install xterm -y
+
+## Tilix ##
+sudo dnf install tilix -y
