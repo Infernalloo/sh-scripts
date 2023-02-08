@@ -14,6 +14,9 @@ sudo dnf install fish
 sudo dnf install util-linux-user
 chsh -s /bin/fish
 
+# install exa
+sudo pacman install exa -y
+
 # install starship
 curl -sS https://starship.rs/install.sh | sh
 
