@@ -1,13 +1,5 @@
 #!/bin/bash
 
-### Miscellanous ###
-## GitHub Desktop ##
-# add rpm
-sudo rpm --import https://packagecloud.io/shiftkey/desktop/gpgkey
-sudo sh -c 'echo -e "[shiftkey]\nname=GitHub Desktop\nbaseurl=https://packagecloud.io/shiftkey/desktop/el/7/\$basearch\nenabled=1\ngpgcheck=0\nrepo_gpgcheck=1\ngpgkey=https://packagecloud.io/shiftkey/desktop/gpgkey" > /etc/yum.repos.d/shiftkey-desktop.repo'
-# install
-sudo dnf install github-desktop -y
-
 ## Virtualbox
 sudo dnf -y install @development-tools
 sudo dnf -y install kernel-headers kernel-devel dkms elfutils-libelf-devel qt5-qtx11extras
@@ -32,6 +24,6 @@ unzip master.zip
 sudo install pfetch-master/pfetch /usr/local/bin/
 ls -l /usr/local/bin/pfetch
 
-# enables nonfree rpm fusion
+# install bottom
 sudo dnf copr enable atim/bottom -y
 sudo dnf install bottom -y

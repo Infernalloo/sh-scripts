@@ -1,8 +1,10 @@
 #!/bin/bash
 
-### Terminals ###
 ## Kitty ##
 sudo dnf install kitty -y
+
+## Tilix ##
+sudo dnf install tilix -y
 
 ## Sakura ##
 sudo dnf install sakura -y
@@ -13,5 +15,3 @@ sudo dnf install st -y
 ## Xterm ##
 sudo dnf install xterm -y
 
-## Tilix ##
-sudo dnf install tilix -y
