@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # update system
+sudo zypper update -n
 sudo zypper -n ref && sudo zypper -n dup
 
 # install github-cli
@@ -16,3 +17,6 @@ sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo zypper addrepo https://packages.microsoft.com/yumrepos/vscode vscode
 sudo zypper -n ref
 sudo zypper -n install code
+
+# install exa
+sudo zypper -n install exa
