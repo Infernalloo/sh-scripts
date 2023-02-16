@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # update system
-sudo zypper update -n
+sudo zypper -n update
 sudo zypper -n ref && sudo zypper -n dup
 
 # install github-cli
@@ -20,3 +20,6 @@ sudo zypper -n install code
 
 # install exa
 sudo zypper -n install exa
+
+# reboot
+sudo reboot
