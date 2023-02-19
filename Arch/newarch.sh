@@ -16,7 +16,9 @@ sudo pacman -S starship --noconfirm
 sudo pacman -S install exa --noconfirm
 
 # install spotify
-sudo pacman -S spotify-launcher --noconfirm
+sudo pacman -S flatpak --noconfirm
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.spotify.Client
 
 # install bottom
 sudo pacman -S bottom --noconfirm
