@@ -11,3 +11,6 @@ sudo pacman -S kate --noconfirm
 
 # install github-cli
 sudo pacman -S github-cli --noconfirm
+
+# install micro
+sudo pacman -S micro --noconfirm
