@@ -11,3 +11,6 @@ sudo pacman -S xterm --noconfirm
 
 # st
 yay -S st --noconfirm
+
+# tilix
+sudo pacman -S tilix --noconfirm

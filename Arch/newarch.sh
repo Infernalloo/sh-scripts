@@ -12,6 +12,9 @@ sudo pacman -S fish
 # install starship
 sudo pacman -S starship --noconfirm
 
+# install exa
+sudo pacman -S install exa --noconfirm
+
 # install spotify
 sudo pacman -S spotify-launcher --noconfirm
 
@@ -26,13 +29,6 @@ sudo pacman -S vim --noconfirm
 
 # install neovim
 sudo pacman -S neovim --noconfirm
-
-# install yay
-sudo pacman -S --needed base-devel git --noconfirm
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si --noconfirm
-cd ..
 
 # reboot
 reboot
