@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# install firefox
+sudo pacman -S firefox --noconfirm
+
 # install vivaldi
 sudo pacman -S vivaldi --noconfirm
 sudo pacman -Syu --noconfirm

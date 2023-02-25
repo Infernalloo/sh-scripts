@@ -20,12 +20,6 @@ sudo pacman -S flatpak --noconfirm
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.spotify.Client
 
-# install bottom
-sudo pacman -S bottom --noconfirm
-
-# install pfetch
-sudo pacman -S pfetch --noconfirm
-
 # install vim (in case is not already installed)
 sudo pacman -S vim --noconfirm
 
