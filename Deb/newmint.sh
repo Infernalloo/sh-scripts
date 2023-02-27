@@ -18,6 +18,9 @@ sudo apt install vim -y
 # install neovim
 sudo apt install neovim -y
 
+# install starship
+curl -sS https://starship.rs/install.sh | sh
+
 # install alacritty
 sudo apt-get install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
 sudo apt install alacritty -y
