@@ -7,8 +7,8 @@ sudo pacman -S bottom --noconfirm
 sudo pacman -S cmatrix --noconfirm
 
 # install asciiquarium
-sudo pacman -S asciiquarium
+sudo pacman -S asciiquarium --noconfirm
 
 # install lolcat
-sudo pacman -S lolcat
+sudo pacman -S lolcat --noconfirm
 
