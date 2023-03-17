@@ -46,9 +46,6 @@ EOF
 sudo dnf check-update -y
 sudo dnf install code -y
 
-# install discord
-sudo dnf install discord -y
-
 # install Spotify through the flathub
 sudo dnf upgrade --refresh -y
 sudo dnf install flatpak -y
