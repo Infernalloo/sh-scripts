@@ -25,8 +25,9 @@ sudo pacman -S neovim --noconfirm
 yay -S visual-studio-code-bin --noconfirm
 
 # install spotify
-sudo pacman -S flatpak --noconfirm
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.spotify.Client
+#sudo pacman -S flatpak --noconfirm
+#flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+#flatpak install flathub com.spotify.Client
+sudo pacman -S spotify --noconfirm
 
-# reboot
+reboot

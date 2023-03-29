@@ -10,7 +10,7 @@ wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
 yay -S bunnyfetch --noconfirm
 
 # pfetch-rs
-yay -S pfetch-rs --noconfirm
+#yay -S pfetch-rs --noconfirm
 
 # pfetch
 yay -S pfetch --noconfirm
