@@ -6,6 +6,9 @@ sudo pacman -Syu --noconfirm
 # install alacritty
 sudo pacman -S alacritty --noconfirm
 
+# kitty
+sudo pacman -S kitty --noconfirm
+
 # install fish
 sudo pacman -S fish --noconfirm
 
@@ -21,8 +24,16 @@ sudo pacman -S vim --noconfirm
 # install neovim
 sudo pacman -S neovim --noconfirm
 
+# install github-cli
+sudo pacman -S github-cli --noconfirm
+
 # install vscode
 yay -S visual-studio-code-bin --noconfirm
+
+# install vivaldi
+sudo pacman -S vivaldi --noconfirm
+sudo pacman -Syu --noconfirm
+sudo pacman -S vivaldi-ffmpeg-codecs --noconfirm
 
 # install spotify
 #sudo pacman -S flatpak --noconfirm

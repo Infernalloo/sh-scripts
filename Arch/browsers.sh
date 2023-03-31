@@ -3,11 +3,6 @@
 # install firefox
 sudo pacman -S firefox --noconfirm
 
-# install vivaldi
-sudo pacman -S vivaldi --noconfirm
-sudo pacman -Syu --noconfirm
-sudo pacman -S vivaldi-ffmpeg-codecs --noconfirm
-
 # install brave
 sudo pacman -Syu --noconfirm
 yay -S brave-bin --noconfirm

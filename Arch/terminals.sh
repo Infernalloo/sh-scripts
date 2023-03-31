@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# kitty
-sudo pacman -S kitty --noconfirm
 
 # sakura
 yay -S sakura --noconfirm
