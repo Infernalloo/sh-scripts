@@ -3,10 +3,7 @@
 # upate system
 sudo pacman -Syu --noconfirm
 
-# install alacritty
-sudo pacman -S alacritty --noconfirm
-
-# kitty
+# install  kitty
 sudo pacman -S kitty --noconfirm
 
 # install fish

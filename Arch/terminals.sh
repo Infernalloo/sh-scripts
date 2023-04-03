@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# install alacritty
+sudo pacman -S alacritty --noconfirm
 
 # sakura
 yay -S sakura --noconfirm
