@@ -1,7 +1,8 @@
 #!/bin/bash
 
-## Kitty ##
-sudo dnf install kitty -y
+# install alacritty
+sudo dnf makecache --refresh
+sudo dnf install alacritty -y
 
 ## Tilix ##
 sudo dnf install tilix -y

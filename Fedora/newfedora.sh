@@ -4,9 +4,8 @@
 sudo dnf update --refresh -y && sudo dnf upgrade -y
 sudo dnf install dnf-utils -y
 
-# install alacritty
-sudo dnf makecache --refresh
-sudo dnf install alacritty -y
+## Kitty ##
+sudo dnf install kitty -y
 
 # install fish
 sudo dnf install fish -y
@@ -45,6 +44,10 @@ gpgkey=https://packages.microsoft.com/keys/microsoft.asc
 EOF
 sudo dnf check-update -y
 sudo dnf install code -y
+
+## Vivaldi ##
+sudo dnf config-manager --add-repo https://repo.vivaldi.com/archive/vivaldi-fedora.repo
+sudo dnf install vivaldi-stable -y
 
 # install Spotify through the flathub
 sudo dnf upgrade --refresh -y
