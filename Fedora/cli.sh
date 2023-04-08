@@ -1,14 +1,16 @@
 #!/bin/bash
 
 # install bottom
-sudo dnf copr enable atim/bottom -y
-sudo dnf install bottom -y
+sudo dnf install cargo -y
+cargo install bottom --locked
 
 # install neofetch
 sudo dnf install neofetch -y
 
-# install nitch 
+# install nitch
+cd
 wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
+cd -
 
 # install bunnyfetch
 sudo dnf install go -y
