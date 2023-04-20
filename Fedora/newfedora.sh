@@ -4,8 +4,10 @@
 sudo dnf update --refresh -y && sudo dnf upgrade -y
 sudo dnf install dnf-utils -y
 
-## Kitty ##
-sudo dnf install kitty -y
+# install alacritty
+sudo dnf makecache --refresh
+sudo dnf install alacritty -y
+
 
 # install fish
 sudo dnf install fish -y
