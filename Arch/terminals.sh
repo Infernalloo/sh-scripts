@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# install alacritty
-sudo pacman -S alacritty --noconfirm
+# install  kitty
+sudo pacman -S kitty --noconfirm
 
 # sakura
 yay -S sakura --noconfirm
 
 # xterm
-sudo pacman -S xterm --noconfirm
+#sudo pacman -S xterm --noconfirm
 
 # st
-yay -S st --noconfirm
+#yay -S st --noconfirm
 
 # tilix
 sudo pacman -S tilix --noconfirm

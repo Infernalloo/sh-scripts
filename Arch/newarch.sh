@@ -10,8 +10,8 @@ cd yay-bin
 makepkg -si
 cd
 
-# install  kitty
-sudo pacman -S kitty --noconfirm
+# install alacritty
+sudo pacman -S alacritty --noconfirm
 
 # install fish
 sudo pacman -S fish --noconfirm
@@ -43,6 +43,6 @@ sudo pacman -S vivaldi-ffmpeg-codecs --noconfirm
 #sudo pacman -S flatpak --noconfirm
 #flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 #flatpak install flathub com.spotify.Client
-sudo pacman -S spotify --noconfirm
+yay -S spotify --noconfirm
 
 reboot
