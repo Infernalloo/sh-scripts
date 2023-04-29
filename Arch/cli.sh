@@ -4,7 +4,9 @@
 sudo pacman -S neofetch --noconfirm
 
 # nitch
+cd
 wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
+cd -
 
 # bunnyfetch
 yay -S bunnyfetch --noconfirm
