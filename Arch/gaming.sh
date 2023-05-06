@@ -7,7 +7,7 @@ sudo pacman -S lutris --noconfirm
 sudo pacman -S steam --noconfirm
 
 # install discord
-sudo pacman -S discord --noconfirm
+#sudo pacman -S discord --noconfirm
 
 # install bottles
 yay -S bottles --noconfirm
