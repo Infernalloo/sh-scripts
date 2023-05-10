@@ -4,7 +4,6 @@
 sudo pacman -S firefox --noconfirm
 
 # install brave
-sudo pacman -Syu --noconfirm
 yay -S brave-bin --noconfirm
 
 # install opera
