@@ -8,7 +8,6 @@ sudo dnf install dnf-utils -y
 sudo dnf makecache --refresh
 sudo dnf install alacritty -y
 
-
 # install fish
 sudo dnf install fish -y
 sudo dnf install util-linux-user -y
@@ -16,9 +15,6 @@ chsh -s /bin/fish
 
 # install exa
 sudo dnf install exa -y
-
-# install gh
-sudo dnf install gh -y
 
 # install starship
 curl -sS https://starship.rs/install.sh | sh
