@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ## Vivaldi ##
-sudo dnf config-manager --add-repo https://repo.vivaldi.com/archive/vivaldi-fedora.repo
-sudo dnf install vivaldi-stable -y
+#sudo dnf config-manager --add-repo https://repo.vivaldi.com/archive/vivaldi-fedora.repo
+#sudo dnf install vivaldi-stable -y
 
 ## Brave browser ##
 sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/x86_64/
