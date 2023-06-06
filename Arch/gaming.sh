@@ -10,7 +10,7 @@ sudo pacman -S steam --noconfirm
 #sudo pacman -S discord --noconfirm
 
 # install bottles
-flatpak install flathub com.usebottles.bottles
+flatpak install flathub com.usebottles.bottles -y
 
 ## wine dependencies
 sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls \

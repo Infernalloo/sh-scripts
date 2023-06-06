@@ -35,7 +35,7 @@ sudo pacman -S vivaldi-ffmpeg-codecs --noconfirm
 # install spotify
 sudo pacman -S flatpak --noconfirm
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.spotify.Client
+flatpak install flathub com.spotify.Client -y
 #yay -S spotify --noconfirm
 
 reboot
