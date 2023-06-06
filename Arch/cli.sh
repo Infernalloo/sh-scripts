@@ -9,13 +9,13 @@ wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
 cd -
 
 # bunnyfetch
-yay -S bunnyfetch --noconfirm
+pikaur -S bunnyfetch --noconfirm
 
 # pfetch-rs
 #yay -S pfetch-rs --noconfirm
 
 # pfetch
-yay -S pfetch --noconfirm
+pikaur -S pfetch --noconfirm
 
 # install bottom
 sudo pacman -S bottom --noconfirm

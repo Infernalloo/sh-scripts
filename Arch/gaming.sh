@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install lutris
-sudo pacman -S lutris --noconfirm
+#sudo pacman -S lutris --noconfirm
 
 # install steam
 sudo pacman -S steam --noconfirm
@@ -10,7 +10,7 @@ sudo pacman -S steam --noconfirm
 #sudo pacman -S discord --noconfirm
 
 # install bottles
-yay -S bottles --noconfirm
+flatpak install flathub com.usebottles.bottles
 
 ## wine dependencies
 sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls \

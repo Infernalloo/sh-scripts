@@ -4,11 +4,11 @@
 sudo pacman -S firefox --noconfirm
 
 # install brave
-yay -S brave-bin --noconfirm
+pikaur -S brave-bin --noconfirm
 
 # install opera
 sudo pacman -S opera-ffmpeg-codecs --noconfirm
 sudo pacman -S opera --noconfirm
 
 # install edge
-yay -S microsoft-edge-stable-bin --noconfirm
+#yay -S microsoft-edge-stable-bin --noconfirm
