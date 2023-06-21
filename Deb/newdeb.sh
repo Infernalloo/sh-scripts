@@ -39,7 +39,6 @@ sudo apt update
 sudo apt install
 
 #  Vivaldi
-sudo apt -y install wget
 wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | gpg --dearmor | sudo dd of=/usr/share/keyrings/vivaldi-browser.gpg
 echo "deb [signed-by=/usr/share/keyrings/vivaldi-browser.gpg arch=$(dpkg --print-architecture)] https://repo.vivaldi.com/archive/deb/ stable main" | sudo dd of=/etc/apt/sources.list.d/vivaldi-archive.list
 sudo apt update -y && sudo apt install vivaldi-stable -y
