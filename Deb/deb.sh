@@ -36,7 +36,7 @@ sudo apt install exa -y
 # install starship
 cd
 curl -sS https://starship.rs/install.sh | sh
-cd $HOME/Documents/gitlab/newscripts-sh/Deb
+cd
 
 # install vscode
 sudo apt install code -y
@@ -48,8 +48,7 @@ flatpak install flathub com.spotify.Client -y
 curl -LO https://github.com/ClementTsang/bottom/releases/download/0.6.8/bottom_0.6.8_amd64.deb
 sudo dpkg -i bottom_0.6.8_amd64.deb
 sudo apt install ./bottom_0.6.8_amd64.deb -y
-cd $HOME/Documents/gitlab/newscripts-sh/Deb
-
+cd
 # install neofetch
 sudo apt install neofetch -y
 
@@ -60,10 +59,11 @@ sudo apt install cmatrix -y
 sudo apt install lolcat -y
 
 # install pfetch
-git clone https://github.com/dylanaraps/pfetch.git
-sudo install -y pfetch/pfetch /usr/local/bin/
+wget https://github.com/dylanaraps/pfetch/archive/master.zip
+unzip master.zip
+sudo install pfetch-master/pfetch /usr/local/bin/
 ls -l /usr/local/bin/pfetch
-cd $HOME/Documents/gitlab/newscripts-sh/Deb
+cd
 
 # install bunnyfetch
 cd
@@ -71,23 +71,7 @@ git clone https://github.com/Rosettea/Bunnyfetch
 cd Bunnyfetch
 go get -d ./...
 go build -ldflags "-w -s" # ldflags make the binary smaller
-cd $HOME/Documents/gitlab/newscripts-sh/Deb
-
-# install asciiquarium
 cd
-sudo apt-get install libcurses-perl build-essential -y
-cd /tmp
-wgettar -zxvf Term-Animation-2.6.tar.gz
-cd Term-Animation-2.6/
-perl Makefile.PL && make && make test
-sudo make install
-cd /tmp
-wget https://robobunny.com/projects/asciiquarium/asciiquarium.tar.gz
-tar -zxvf asciiquarium.tar.gz
-cd asciiquarium_1.1/
-sudo cp asciiquarium /usr/local/bin
-sudo chmod 0755 /usr/local/bin/asciiquarium
-cd $HOME/Documents/gitlab/newscripts-sh/Deb
 
 # install steam
 sudo add-apt-repository multiverse -y
