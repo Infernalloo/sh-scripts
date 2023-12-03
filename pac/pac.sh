@@ -12,16 +12,19 @@ git clone https://aur.archlinux.org/pikaur.git
 cd pikaur
 makepkg -fsri
 cd
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+cd
 
 # Terminal related
-sudo pacman -S exa vim neovim alacritty starship --noconfirm
+sudo pacman -S eza vim neovim alacritty --noconfirm
 sudo pacman -S neofetch bottom cmatrix asciiquarium lolcat --noconfirm
 pikaur -S bunnyfetch pfetch nitch --noconfirm
-pikaur -S nerd-fonts --noconfirm
+pikaur -S ttf-jetbrains-mono-git --noconfirm
 
 # Browsers
 sudo pacman -S firefox --noconfirm
 sudo pacman -S vivaldi vivaldi-ffmpeg-codecs --noconfirm
+pikaur -S brave --noconfirm
 
 # Others
 # steam
